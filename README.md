@@ -2,17 +2,17 @@
 Official Github repository for "Blind Removal of Facial Foreign Shadows", accepted to BMVC 2022. 
 
 ## Testing Procedures 
-To test on in-the-wild images, place the resulting folder with your cropped image and landmarks in the **sample_imgs/** folder and run:
+To test on **in-the-wild images**, place the resulting folder with your cropped image and landmarks in the **sample_imgs/** folder and run:
 ```
 python train_test_GSC.py
 ```
 
-To run the SFW evaluation on shadow segmentation performance (AUC) and shadow removal performance, run:
+To run the **SFW evaluation** on shadow segmentation performance (AUC) and shadow removal performance, run:
 ```
 python train_with_TSM.py
 ```
 
-To test on the UCB test set, also run: 
+To test on the **UCB test set**, also run: 
 ```
 python train_test_GSC.py
 ```
