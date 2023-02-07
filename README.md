@@ -1,6 +1,14 @@
 # Blind Removal of Facial Foreign Shadows
 Official Github repository for "Blind Removal of Facial Foreign Shadows", accepted to BMVC 2022. 
 
+## Dependencies
+Our method has the following dependencies:
+
+1. 
+2. 
+3. 
+4.
+
 ## Preprocessing a New Image
 Before feeding an image to our method, use 
 
