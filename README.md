@@ -4,10 +4,18 @@ Official Github repository for "Blind Removal of Facial Foreign Shadows", accept
 ## Dependencies
 Our method has the following dependencies:
 
-1. 
-2. 
-3. 
-4.
+1. Tensorflow 2.3.0
+2. Python 3.7.10
+3. OpenCV 3.4.2
+4. NumPy 1.18.5
+5. Tensorflow keras 2.4.0
+6. sklearn 0.24.2
+7. scipy 1.4.1
+8. matplotlib 3.4.2 
+9. PIL 8.2.0
+10. skimage 0.18.1
+11. tensorflow_addons 0.13.0
+12. os, glob, time, sys, random, math, natsort
 
 ## Preprocessing a New Image
 Before feeding an image to our method, use 
