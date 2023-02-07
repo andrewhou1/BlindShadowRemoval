@@ -1,5 +1,6 @@
 # Blind Removal of Facial Foreign Shadows
 Official Github repository for "Blind Removal of Facial Foreign Shadows", accepted to BMVC 2022. 
+[Yaojie Liu*](https://yaojieliu.github.io/), [Andrew Hou*](https://andrewhou1.github.io/), [Xinyu Huang](https://scholar.google.com/citations?user=cL4bNBwAAAAJ&hl=en), [Liu Ren](https://sites.google.com/site/liurenshomepage/), [Xiaoming Liu](http://www.cse.msu.edu/~liuxm/index2.html) (* denotes equal contribution). 
 
 ## Dependencies
 Our method has the following dependencies:
