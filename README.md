@@ -43,6 +43,11 @@ and
 ```
 fsr.testFFHQ(dataset_test) to fsr.test(dataset_test)
 ```
+You will also need to change one line in **dataset.py**
+```
+Change dataset = dataset.map(map_func=self.parse_fn_test_FFHQ, num_parallel_calls=autotune) to dataset = dataset.map(map_func=self.parse_fn_test, num_parallel_calls=autotune)
+
+```
 
 ## SFW Dataset
 Link to the original SFW video dataset: https://drive.google.com/file/d/1H4WFtDCGp4Bk1EeTjX1F_LXDmxxlxUHm/view?usp=share_link
