@@ -1,6 +1,9 @@
 # Blind Removal of Facial Foreign Shadows
 Official Github repository for "Blind Removal of Facial Foreign Shadows", accepted to BMVC 2022. 
 
+## Preprocessing a New Image
+Before feeding an image to our method, use 
+
 ## Testing Procedures 
 To test on **in-the-wild images**, place the resulting folder with your cropped image and landmarks in the **sample_imgs/** folder and run:
 ```
