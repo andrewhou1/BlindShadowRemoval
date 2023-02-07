@@ -33,7 +33,7 @@ DATA_DIR_TEST = ['sample_imgs/*']
 ```
 to 
 ```
-DATA_DIR_TEST = ['UCB/*']
+DATA_DIR_TEST = ['UCB/train/input/*']
 ```
 and 
 ```
