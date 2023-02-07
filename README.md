@@ -29,19 +29,11 @@ python train_test_GSC.py
 ```
 You will need to change two lines in this file first. Change 
 ```
-DATA_DIR_TEST = ['sample_imgs/*']
-```
-to 
-```
-DATA_DIR_TEST = ['UCB/train/input/*']
+DATA_DIR_TEST = ['sample_imgs/*'] to DATA_DIR_TEST = ['UCB/train/input/*']
 ```
 and 
 ```
-fsr.testFFHQ(dataset_test)
-```
-to
-```
-fsr.test(dataset_test)
+fsr.testFFHQ(dataset_test) to fsr.test(dataset_test)
 ```
 
 ## SFW Dataset
