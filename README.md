@@ -19,8 +19,10 @@ Our method has the following dependencies:
 11. tensorflow_addons 0.13.0
 12. os, glob, time, sys, random, math, natsort, face-alignment
 
-## Preprocessing a New Image
-Before feeding an image to our method, use 
+## Preprocessing New Images
+Before feeding an image to our method, use **bmvc2022_dataprocess.py** to compute landmarks for all images in the **sample_uncropped_images/** folder. You can empty this folder initially and just place all of your images in (you only need .png, it will generate the .npy files that contain the landmarks). 
+
+Next, run **dataprocess.py**. This will generate a folder for each image in the **sample_uncropped_images_cropped/** folder, where each folder contains the landmarks and a cropped image. 
 
 ## Testing Procedures 
 To test on **in-the-wild images**, place the resulting folder with your cropped image and landmarks in the **sample_imgs/** folder and run:
