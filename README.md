@@ -55,3 +55,19 @@ Change dataset = dataset.map(map_func=self.parse_fn_test_FFHQ, num_parallel_call
 
 ## SFW Dataset
 Link to the original SFW video dataset: https://drive.google.com/file/d/1H4WFtDCGp4Bk1EeTjX1F_LXDmxxlxUHm/view?usp=share_link
+
+## Citation 
+If you utilize our code in your work, please cite our BMVC 2022 paper. 
+```
+@inproceedings{ blind-removal-of-facial-foreign-shadows,
+  author = { Yaojie Liu* and Andrew Hou* and Xinyu Huang and Liu Ren and Xiaoming Liu },
+  title = { Blind Removal of Facial Foreign Shadows },
+  booktitle = { In Proceedings of British Machine Vision Conference (BMVC) },
+  address = { London, UK },
+  month = { November },
+  year = { 2022 },
+}
+```
+
+## Contact 
+If there are any questions, please feel free to post here or contact the first author at **houandr1@msu.edu** 
