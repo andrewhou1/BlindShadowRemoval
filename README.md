@@ -26,6 +26,8 @@ Before feeding an image to our method, use **bmvc2022_dataprocess.py** to comput
 
 Next, run **dataprocess.py**. This will generate a folder for each image in the **sample_uncropped_images_cropped/** folder, where each folder contains the landmarks and a cropped image. 
 
+Note that these steps only need to be performed for new in-the-wild images. You do not need to preprocess any of the UCB test set or SFW images: this has already been done. 
+
 ## Testing Procedures 
 To test on **in-the-wild images**, place the resulting folder with your cropped image and landmarks in the **sample_imgs/** folder and run:
 ```
